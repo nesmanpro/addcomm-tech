@@ -1,0 +1,51 @@
+
+
+:root {
+    --font-primary: "Montserrat", sans-serif;
+
+    --color-primary: #091e42;
+    --color-secondary: #8590a2;
+    --color-bright: #ffcb03;
+    --color-light: #f7f8fa;
+
+    --color-card-title: #1e4054;
+    --color-card-subtitle: #8590a2;
+    --color-card-icon: #31576d;
+    --color-card-icon-bg: #f3f5f8;
+    --color-card-bg: #ffffff;
+    --color-card-border: #f1f2f4;
+    --color-card-border-dark: #dddedf;
+
+    --color-background--light: #ffffff;
+    --color-background--grey: #f4f5f6;
+    --color-background--dark: #302d27;
+
+    --color-button--primary: #ffcb03;
+    --color-button--primary--hover: #d7b011;
+
+    --color-button--secondary: #fefefd;
+    --color-button--secondary--hover: #beb2a7;
+
+    --color-button-text--dark: #1e4054;
+    --color-button-text--light: #fefefd;
+
+    --color-text--dark: #091e42;
+    --color-text--light: #8590a2;
+    --color-text--white: #fefefd;
+
+    --color-info: #03a9f4;
+    --color-positive: #22c55e;
+    --color-negative: #d32f2f;
+    --color-warning: #ff7b1c;
+
+    --color-positive-dark: #16a34a;
+    --color-positive-surface: #e9faef;
+
+    --color-negative-dark: #d32f2f;
+    --color-negative-surface: #fbebeb;
+
+    --color-info-dark: #027fb7;
+    --color-info-surface: #e6f7fe;
+
+    --desktop-width: 1440;
+}

@@ -1,0 +1,342 @@
+[
+  {
+    "nombre": "Alpha_Genesis",
+    "id": 1,
+    "status": "processing",
+    "fecha": "2024-07-04T00:00:00.000Z",
+    "categoria": {
+      "running": 150,
+      "success": 200,
+      "scheduled": 130,
+      "error": 110
+    },
+    "type": {
+      "sms": 150,
+      "email": 180,
+      "print": 130
+    }
+  },
+  {
+    "nombre": "Prime_Apex",
+    "id": 2,
+    "status": "finished",
+    "fecha": "2024-07-03T00:00:00.000Z",
+    "categoria": {
+      "running": 160,
+      "success": 220,
+      "scheduled": 140,
+      "error": 115
+    },
+    "type": {
+      "sms": 170,
+      "email": 190,
+      "print": 120
+    }
+  },
+  {
+    "nombre": "Genesis_Zenith",
+    "id": 3,
+    "status": "processing",
+    "fecha": "2024-07-02T00:00:00.000Z",
+    "categoria": {
+      "running": 180,
+      "success": 250,
+      "scheduled": 135,
+      "error": 120
+    },
+    "type": {
+      "sms": 160,
+      "email": 170,
+      "print": 150
+    }
+  },
+  {
+    "nombre": "Apex_Stellar",
+    "id": 4,
+    "status": "finished",
+    "fecha": "2024-07-01T00:00:00.000Z",
+    "categoria": {
+      "running": 145,
+      "success": 230,
+      "scheduled": 150,
+      "error": 110
+    },
+    "type": {
+      "sms": 140,
+      "email": 200,
+      "print": 160
+    }
+  },
+  {
+    "nombre": "Summit_Vanguard",
+    "id": 5,
+    "status": "processing",
+    "fecha": "2024-07-05T00:00:00.000Z",
+    "categoria": {
+      "running": 170,
+      "success": 190,
+      "scheduled": 120,
+      "error": 125
+    },
+    "type": {
+      "sms": 180,
+      "email": 150,
+      "print": 170
+    }
+  },
+  {
+    "nombre": "Vanguard_Quantum",
+    "id": 6,
+    "status": "finished",
+    "fecha": "2024-07-04T00:00:00.000Z",
+    "categoria": {
+      "running": 140,
+      "success": 210,
+      "scheduled": 160,
+      "error": 105
+    },
+    "type": {
+      "sms": 190,
+      "email": 160,
+      "print": 150
+    }
+  },
+  {
+    "nombre": "Zenith_Infinity",
+    "id": 7,
+    "status": "processing",
+    "fecha": "2024-07-03T00:00:00.000Z",
+    "categoria": {
+      "running": 155,
+      "success": 240,
+      "scheduled": 125,
+      "error": 120
+    },
+    "type": {
+      "sms": 170,
+      "email": 180,
+      "print": 170
+    }
+  },
+  {
+    "nombre": "Stellar_Alpha",
+    "id": 8,
+    "status": "finished",
+    "fecha": "2024-07-02T00:00:00.000Z",
+    "categoria": {
+      "running": 165,
+      "success": 220,
+      "scheduled": 135,
+      "error": 115
+    },
+    "type": {
+      "sms": 150,
+      "email": 190,
+      "print": 160
+    }
+  },
+  {
+    "nombre": "Quantum_Prime",
+    "id": 9,
+    "status": "processing",
+    "fecha": "2024-07-01T00:00:00.000Z",
+    "categoria": {
+      "running": 175,
+      "success": 200,
+      "scheduled": 130,
+      "error": 125
+    },
+    "type": {
+      "sms": 160,
+      "email": 170,
+      "print": 180
+    }
+  },
+  {
+    "nombre": "Alpha_Genesis",
+    "id": 10,
+    "status": "finished",
+    "fecha": "2024-07-05T00:00:00.000Z",
+    "categoria": {
+      "running": 150,
+      "success": 190,
+      "scheduled": 140,
+      "error": 110
+    },
+    "type": {
+      "sms": 180,
+      "email": 160,
+      "print": 150
+    }
+  },
+  {
+    "nombre": "Prime_Apex",
+    "id": 11,
+    "status": "processing",
+    "fecha": "2024-07-04T00:00:00.000Z",
+    "categoria": {
+      "running": 170,
+      "success": 230,
+      "scheduled": 130,
+      "error": 120
+    },
+    "type": {
+      "sms": 190,
+      "email": 170,
+      "print": 140
+    }
+  },
+  {
+    "nombre": "Genesis_Zenith",
+    "id": 12,
+    "status": "finished",
+    "fecha": "2024-07-03T00:00:00.000Z",
+    "categoria": {
+      "running": 160,
+      "success": 210,
+      "scheduled": 150,
+      "error": 115
+    },
+    "type": {
+      "sms": 200,
+      "email": 150,
+      "print": 130
+    }
+  },
+  {
+    "nombre": "Apex_Stellar",
+    "id": 13,
+    "status": "processing",
+    "fecha": "2024-07-02T00:00:00.000Z",
+    "categoria": {
+      "running": 180,
+      "success": 240,
+      "scheduled": 135,
+      "error": 120
+    },
+    "type": {
+      "sms": 170,
+      "email": 190,
+      "print": 150
+    }
+  },
+  {
+    "nombre": "Summit_Vanguard",
+    "id": 14,
+    "status": "finished",
+    "fecha": "2024-07-01T00:00:00.000Z",
+    "categoria": {
+      "running": 155,
+      "success": 200,
+      "scheduled": 145,
+      "error": 110
+    },
+    "type": {
+      "sms": 160,
+      "email": 180,
+      "print": 170
+    }
+  },
+  {
+    "nombre": "Vanguard_Quantum",
+    "id": 15,
+    "status": "processing",
+    "fecha": "2024-07-05T00:00:00.000Z",
+    "categoria": {
+      "running": 165,
+      "success": 220,
+      "scheduled": 120,
+      "error": 115
+    },
+    "type": {
+      "sms": 180,
+      "email": 160,
+      "print": 190
+    }
+  },
+  {
+    "nombre": "Zenith_Infinity",
+    "id": 16,
+    "status": "finished",
+    "fecha": "2024-07-04T00:00:00.000Z",
+    "categoria": {
+      "running": 160,
+      "success": 210,
+      "scheduled": 150,
+      "error": 115
+    },
+    "type": {
+      "sms": 200,
+      "email": 150,
+      "print": 170
+    }
+  },
+  {
+    "nombre": "Stellar_Alpha",
+    "id": 17,
+    "status": "processing",
+    "fecha": "2024-07-03T00:00:00.000Z",
+    "categoria": {
+      "running": 150,
+      "success": 190,
+      "scheduled": 130,
+      "error": 120
+    },
+    "type": {
+      "sms": 170,
+      "email": 160,
+      "print": 180
+    }
+  },
+  {
+    "nombre": "Quantum_Prime",
+    "id": 18,
+    "status": "finished",
+    "fecha": "2024-07-02T00:00:00.000Z",
+    "categoria": {
+      "running": 175,
+      "success": 240,
+      "scheduled": 140,
+      "error": 110
+    },
+    "type": {
+      "sms": 180,
+      "email": 190,
+      "print": 150
+    }
+  },
+  {
+    "nombre": "Alpha_Genesis",
+    "id": 19,
+    "status": "processing",
+    "fecha": "2024-07-01T00:00:00.000Z",
+    "categoria": {
+      "running": 170,
+      "success": 230,
+      "scheduled": 130,
+      "error": 125
+    },
+    "type": {
+      "sms": 160,
+      "email": 170,
+      "print": 200
+    }
+  },
+  {
+    "nombre": "Prime_Apex",
+    "id": 20,
+    "status": "finished",
+    "fecha": "2024-07-05T00:00:00.000Z",
+    "categoria": {
+      "running": 160,
+      "success": 210,
+      "scheduled": 140,
+      "error": 115
+    },
+    "type": {
+      "sms": 190,
+      "email": 160,
+      "print": 180
+    }
+  }
+]

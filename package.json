@@ -1,0 +1,20 @@
+{
+  "name": "addcomm",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "prettier": "3.3.2",
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.3",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.6"
+  }
+}
