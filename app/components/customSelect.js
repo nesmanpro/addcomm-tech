@@ -53,8 +53,7 @@ for (i = 0; i < l; i++) {
 }
 
 function closeAllSelect(elmnt) {
-    /*a function that will close all select boxes in the document,
-    except the current select box:*/
+
     var x, y, i, xl, yl, arrNo = [];
     x = document.getElementsByClassName("select-items");
     y = document.getElementsByClassName("select-selected");
@@ -73,6 +72,5 @@ function closeAllSelect(elmnt) {
         }
     }
 }
-/*if the user clicks anywhere outside the select box,
-then close all select boxes:*/
+
 document.addEventListener("click", closeAllSelect);

@@ -1,0 +1,43 @@
+.card__numbers {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.type__total {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--color-card-title);
+}
+
+.type__title {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.type__percent {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.positive__percent {
+    color: var(--color-positive-dark);
+    background-color: var(--color-positive-surface);
+}
+
+.negative__percent {
+    color: var(--color-negative-dark);
+    background-color: var(--color-negative-surface);
+}
+
+.negative__percent i {
+    rotate: 180deg;
+}
+
+.type__percent i {
+    font-size: 9px;
+}
