@@ -20,7 +20,7 @@
     "nombre": "Prime_Apex",
     "id": 2,
     "status": "finished",
-    "fecha": "2024-07-03T00:00:00.000Z",
+    "fecha": "2024-04-03T00:00:00.000Z",
     "categoria": {
       "running": 160,
       "success": 220,
@@ -156,7 +156,7 @@
     "nombre": "Alpha_Genesis",
     "id": 10,
     "status": "finished",
-    "fecha": "2024-07-05T00:00:00.000Z",
+    "fecha": "2024-06-15T00:00:00.000Z",
     "categoria": {
       "running": 150,
       "success": 190,
@@ -224,7 +224,7 @@
     "nombre": "Summit_Vanguard",
     "id": 14,
     "status": "finished",
-    "fecha": "2024-07-01T00:00:00.000Z",
+    "fecha": "2024-06-11T00:00:00.000Z",
     "categoria": {
       "running": 155,
       "success": 200,
@@ -292,7 +292,7 @@
     "nombre": "Quantum_Prime",
     "id": 18,
     "status": "finished",
-    "fecha": "2024-07-02T00:00:00.000Z",
+    "fecha": "2024-06-02T00:00:00.000Z",
     "categoria": {
       "running": 175,
       "success": 240,
@@ -309,7 +309,7 @@
     "nombre": "Alpha_Genesis",
     "id": 19,
     "status": "processing",
-    "fecha": "2024-07-01T00:00:00.000Z",
+    "fecha": "2024-06-11T00:00:00.000Z",
     "categoria": {
       "running": 170,
       "success": 230,
@@ -326,7 +326,7 @@
     "nombre": "Prime_Apex",
     "id": 20,
     "status": "finished",
-    "fecha": "2024-07-05T00:00:00.000Z",
+    "fecha": "2024-06-15T00:00:00.000Z",
     "categoria": {
       "running": 160,
       "success": 210,
