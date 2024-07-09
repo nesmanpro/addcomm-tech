@@ -57,3 +57,18 @@
 .batches__wrapper__item:nth-child(even) {
     background-color: var(--color-background--grey);
 }
+
+.batches__lines .completed {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.batches__lines .total {
+    text-align: right;
+    margin-right: 40px;
+}
+
+.batches__wrapper__item .total {
+    font-size: 12px;
+    font-weight: 700;
+}
