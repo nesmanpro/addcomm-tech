@@ -1,0 +1,86 @@
+.pannel__1 {
+    flex: 20%;
+}
+.pannel__2 {
+    flex: 28%;
+}
+.pannel__3 {
+    flex: 26%;
+}
+.pannel__4 {
+    flex: 26%;
+}
+
+.pannel__1__top .graphics__title{
+    font-size: 17px;
+    color: var( --color-card-title);
+}
+
+.graphics__title {
+    font-size: 14px;
+    color: var(--color-card-subtitle-darker);
+}
+
+.graphics__description {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-card-subtitle);
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 5px;
+    width: max-content;
+    height: fit-content;
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+}
+
+.details:hover {
+    background-color: var(--color-background--grey);
+}
+
+.dot__color {
+    height: 11px;
+    width: 11px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.color__negative{
+    background-color: var(--color-negative);
+}
+
+.color__positive{
+    background-color: var(--color-positive);
+}
+
+.color__info{
+    background-color: var(--color-info);
+}
+
+.color__warning{
+    background-color: var(--color-warning);
+}
+
+.details h2 {
+    font-size: 17px;
+}
+.details p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-card-subtitle);
+}
+
+.pannel__3, .pannel__4 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.donut-graphic {
+    height: 30rem;
+}

@@ -37,7 +37,7 @@
       </section>
 
 
-      <!-- type of messages -->
+      <!-- Overview messages -->
 
       <section class="types">
 
@@ -55,7 +55,7 @@
           </div>
         </div>
 
-        <!-- sms -->
+        <!-- SMS -->
         <div class="type__container sms">
           <div class="icon__container">
             <div class="sms__icon icon"><i class="fa-regular fa-comment-dots"></i></div>
@@ -90,22 +90,21 @@
         <div class="pannel__1">
           <div class="pannel__1__top">
             <h2 class="graphics__title">Status</h2>
-            <p class="graphics__title-description">in last 7 days</p>
+            <p class="graphics__description">in last 7 days</p>
           </div>
           <div class="pannel__1__bottom">
             <h2 class="graphics__total">532426</h2>
-            <p class="graphics__total-description">Total records</p>
+            <p class="graphics__description">Total records</p>
           </div>
         </div>
         <div class="pannel__2 donut-graphic">
-          ...
-
+          <canvas id="myChart"></canvas>
         </div>
         <div class="pannel__3">
           <div class="pannel__3__top">
             <h2 class="graphics__title">Running</h2>
             <div class="details">
-              <div class="color blue"></div>
+              <div class="dot__color color__info"></div>
               <h2>3244</h2>
               <p>(40%)</p>
             </div>
@@ -114,7 +113,7 @@
           <div class="pannel__3__top">
             <h2 class="graphics__title">Success</h2>
             <div class="details">
-              <div class="color green"></div>
+              <div class="dot__color color__positive"></div>
               <h2>344</h2>
               <p>(35%)</p>
             </div>
@@ -126,7 +125,7 @@
           <div class="pannel__4__top">
             <h2 class="graphics__title">Scheduled</h2>
             <div class="details">
-              <div class="color orange"></div>
+              <div class="dot__color color__warning"></div>
               <h2>32</h2>
               <p>(4%)</p>
             </div>
@@ -135,12 +134,93 @@
           <div class="pannel__4__top">
             <h2 class="graphics__title">Error</h2>
             <div class="details">
-              <div class="color red"></div>
+              <div class="dot__color color__negative"></div>
               <h2>3</h2>
               <p>(1%)</p>
             </div>
           </div>
 
+        </div>
+
+      </section>
+
+      <section class="batches__container">
+        <div class="batches__title">
+          <h2>Batches</h2>
+        </div>
+        <div class="batches__wrapper">
+          <div class="batches__wrapper__index batches__lines">
+            <h3>name</h3>
+            <h3>id</h3>
+            <h3>status</h3>
+            <h3>processed</h3>
+            <h3>total</h3>
+          </div>
+          <div class="batches__items__container">
+
+            <!-- items here bellow -->
+
+
+            <div class="batches__wrapper__item batches__lines">
+              <h3>Alpha_Genesis</h3>
+              <h3>33454345345</h3>
+              <div class="status-badge status-processing">
+                Processing
+              </div>
+              <h3>103</h3>
+              <div class="total">
+                9500
+              </div>
+            </div>
+
+            <div class="batches__wrapper__item batches__lines">
+              <h3>Alpha_Genesis</h3>
+              <h3>33454345345</h3>
+              <div class="status-badge status-processing">
+                Processing
+              </div>
+              <h3>103</h3>
+              <div class="total">
+                9500
+              </div>
+            </div>
+
+            <div class="batches__wrapper__item batches__lines">
+              <h3>Alpha_Genesis</h3>
+              <h3>33454345345</h3>
+              <div class="status-badge status-finished">
+                Finished
+              </div>
+              <h3>103</h3>
+              <div class="total">
+                9500
+              </div>
+            </div>
+
+            <div class="batches__wrapper__item batches__lines">
+              <h3>Alpha_Genesis</h3>
+              <h3>33454345345</h3>
+              <div class="status-badge status-processing">
+                Processing
+              </div>
+              <h3>103</h3>
+              <div class="total">
+                9500
+              </div>
+            </div>
+
+            <div class="batches__wrapper__item batches__lines">
+              <h3>Alpha_Genesis</h3>
+              <h3>33454345345</h3>
+              <div class="status-badge status-finished">
+                Finished
+              </div>
+              <h3>103</h3>
+              <div class="total">
+                9500
+              </div>
+            </div>
+          </div>
         </div>
 
       </section>
@@ -158,6 +238,7 @@
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script type="module" src="app/components/customSelect.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </body>
 
 </html>

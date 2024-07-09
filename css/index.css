@@ -12,11 +12,13 @@
 @import 'pages/_main.css';
 
 /* Layouts */
-@import 'layouts/_boxes.css';
+@import 'layouts/_cards.css';
 
 /* Components */
 @import 'components/_buttons.css';
 @import 'components/_form-toggle.css';
-@import 'components/_msg-boxes.css';
+@import 'components/_msg-cards.css';
+@import 'components/_graphic-card.css';
+@import 'components/_batch__card.css';
 
 
