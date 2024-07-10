@@ -15,12 +15,12 @@
     font-weight: 600;
     color: var(--color-button-text--dark);
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
 }
 
 .btn-primary {
     background-color: var(--color-button--primary);
     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    transition: all 0.2s ease-in-out;
 }
 
 .btn-primary:hover {
@@ -30,6 +30,7 @@
 
 .btn-secondary {
     background-color: transparent;
+    transition: all 0.2s ease-in-out;
 }
 
 .btn-secondary:hover {
@@ -38,6 +39,36 @@
 
 .buttons {
     display: flex;
+}
+
+
+.btn[data-animation='button'] {
+    opacity: 0;
+    transform-origin: 50% 50%;
+}
+
+.form-group[data-animation='button'] {
+    opacity: 0;
+    z-index: 20;
+}
+
+.btn[data-animation='button'] > span {
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+}
+
+.btn[data-animation='button'] > span span {
+    display: inline-block;
+    transform: translateY(16px);
+    white-space: nowrap;
+}
+
+.btn[data-animation='button'] .icon-animation {
+    width: 0px;
+    overflow: hidden;
+    transform: translateX(8px);
+    opacity: 0;
 }
 
 /* MEDIA QUERIES */

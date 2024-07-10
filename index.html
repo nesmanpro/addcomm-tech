@@ -15,26 +15,42 @@
     <container class="wrapper">
       <!-- title and description -->
       <section class="title">
-        <h1>Overview</h1>
-        <p class="subtitle">An aggregated view of all your data.</p>
+        <h1 data-animation="text-reveal">Overview</h1>
+        <p class="subtitle" data-animation="text-reveal">An aggregated view of all your data.</p>
       </section>
 
       <!-- filter and buttons -->
 
       <section class="filters">
-        <div class="form-group choose-window custom-select " style="width:200px;">
+        <div class="form-group choose-window custom-select " style="width:200px;" data-animation="button">
           <label for="category"><i class="fa-regular fa-calendar-days"></i></label>
           <select id="category" name="category" value="7">
+
             <option value="7">Last 7 days</option>
+
             <option value="7">Last 7 days</option>
             <option value="15">Last 2 weeks</option>
             <option value="30">Last month</option>
           </select>
         </div>
-        <div class="buttons">
+        <div class="buttons button">
 
-          <button class="btn btn-primary" id="apply-btn"><i class="fa-solid fa-check"></i> Apply </button>
-          <button class="btn btn-secondary" id="clear-btn"><i class="fa-regular fa-trash-can"></i> Clear</button>
+          <button class="btn btn-primary" id="apply-btn" data-animation="button" style="opacity: 0;"><i
+              class="icon-animation fa-solid fa-check"></i>
+            <span>
+              <span>
+                Apply
+              </span>
+            </span>
+          </button>
+          <button class="btn btn-secondary" id="clear-btn" data-animation="button">
+            <i class="fa-regular fa-trash-can icon-animation"></i>
+            <span>
+              <span>
+                Clear
+              </span>
+            </span>
+          </button>
         </div>
 
       </section>
@@ -51,11 +67,12 @@
           </div>
           <div id="email__details" class="email__details">
             <div id="email__cont">
-              <div class="email__title type__title subtitle">Emails</div>
+              <div class="email__title type__title subtitle" data-animation="text-reveal">Emails</div>
               <div class="email__numbers card__numbers">
 
-                <div class="email__total type__total">0</div>
-                <div class="type__percent positive__percent"><i class="fa-solid fa-arrow-up"></i> 0%</div>
+                <div class="email__total type__total" data-animation="text-reveal">0</div>
+                <div class="type__percent positive__percent" data-animation="text-reveal"><i
+                    class="fa-solid fa-arrow-up"></i> 0%</div>
               </div>
             </div>
           </div>
@@ -69,11 +86,12 @@
           </div>
 
           <div id="sms__details" class="sms__details">
-            <div class="sms__title type__title subtitle">SMS</div>
+            <div class="sms__title type__title subtitle" data-animation="text-reveal">SMS</div>
 
             <div class="sms__numbers card__numbers">
-              <div class="sms__total type__total">0</div>
-              <div class="type__percent negative__percent"><i class="fa-solid fa-arrow-up"></i> 0%</div>
+              <div class="sms__total type__total" data-animation="text-reveal">0</div>
+              <div class="type__percent negative__percent" data-animation="text-reveal"><i
+                  class="fa-solid fa-arrow-up"></i> 0%</div>
             </div>
 
           </div>
@@ -88,11 +106,12 @@
 
           <div id="print__details" class="print__details">
 
-            <div class="print__title type__title subtitle">Print</div>
+            <div class="print__title type__title subtitle" data-animation="text-reveal">Print</div>
             <div class="print__numbers card__numbers">
 
-              <div class="print__total type__total">0</div>
-              <div class="type__percent positive__percent"><i class="fa-solid fa-arrow-up"></i> 0%</div>
+              <div class="print__total type__total" data-animation="text-reveal">0</div>
+              <div class=" type__percent positive__percent" data-animation="text-reveal"><i class="fa-solid fa-arrow-up"
+                  data-animation="text-reveal"></i> 0%</div>
 
             </div>
           </div>
@@ -105,8 +124,9 @@
       <section class="graphics__container">
         <div class="pannel__1">
           <div class="pannel__1__top">
-            <h2 class="graphics__title">Status</h2>
-            <p id="graphic-status" class="graphics__description">in last 7 days</p>
+            <h2 class="graphics__title" data-animation="text-reveal">Status</h2>
+            <p id="graphic-status" class="graphics__description"> in last 7
+              days</p>
           </div>
           <div class="pannel__1__bottom">
             <h2 id="graphic-total" class="graphics__total">0</h2>
@@ -120,6 +140,7 @@
           <div class="pannel__3__top">
             <h2 class="graphics__title">Running</h2>
             <div id="graphic-running" class="details">
+
               <div class="dot__color color__info"></div>
               <h2>0</h2>
               <p>(0%)</p>
@@ -129,9 +150,9 @@
           <div class="pannel__3__top">
             <h2 class="graphics__title">Success</h2>
             <div id="graphic-success" class="details">
-              <div class="dot__color color__positive"></div>
-              <h2>0</h2>
-              <p>(0%)</p>
+              <div></div>
+              <h2">0</h2>
+                <p">(0%)</p>
             </div>
           </div>
 
@@ -162,15 +183,15 @@
 
       <section class="batches__container">
         <div class="batches__title">
-          <h2>Batches</h2>
+          <h2 data-animation="text-reveal">Batches</h2>
         </div>
         <div class="batches__wrapper">
           <div class="batches__wrapper__index batches__lines">
-            <h3>name</h3>
-            <h3>id</h3>
-            <h3>status</h3>
-            <h3 class="completed">processed</h3>
-            <h3 class="total">total</h3>
+            <h3 data-animation="text-reveal">name</h3>
+            <h3 data-animation="text-reveal">id</h3>
+            <h3 data-animation="text-reveal">status</h3>
+            <h3 class="completed" data-animation="text-reveal">processed</h3>
+            <h3 class="total" data-animation="text-reveal">total</h3>
           </div>
           <div id="items-container" class="batches__items__container">
 
