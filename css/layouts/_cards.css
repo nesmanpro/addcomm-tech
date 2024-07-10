@@ -26,14 +26,23 @@
     width: 70px;
     background-color: var(--color-card-icon-bg);
     border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon__container:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .icon {
     font-size: 30px;
     color: var(--color-card-icon);
+    transition: all 0.3s ease-in-out;
 }
 
-
+.icon:hover {
+    transform: scale(1.1) rotate(-8deg);
+}
 
 
 /* MEDIA QUERIES */

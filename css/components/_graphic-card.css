@@ -83,7 +83,13 @@
 
 .donut-graphic {
     height: 30rem;
+    transition: all 0.3s ease-in-out;
 }
+
+.donut-graphic:hover {
+    transform: scale(1.05);
+}
+
 
 
 /* MEDIA QUERIES */
