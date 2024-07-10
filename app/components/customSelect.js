@@ -1,4 +1,6 @@
 import items from './batches.js';
+import msnNumbs from './msnNumbers.js';
+import graphics from './chartGraphic.js';
 import { getClients } from '../utils/getClients.js';
 
 
@@ -104,6 +106,8 @@ const clearBtn = document.getElementById('clear-btn');
 
 clearBtn.addEventListener('click', () => {
     items('');
+    msnNumbs('');
+    graphics('');
 })
 
 applyBtn.addEventListener('click', () => {
@@ -122,6 +126,9 @@ applyBtn.addEventListener('click', () => {
     })
 
     items(filterClientsByDate);
+    msnNumbs(filterClientsByDate);
+    graphics(filterClientsByDate, selectedValue);
+
 })
 
 

@@ -46,39 +46,51 @@
           <div class="icon__container">
             <div class="email__icon icon"><i class="fa-regular fa-envelope"></i></div>
           </div>
-          <div class="email__details">
-            <div class="email__title type__title subtitle">Emails</div>
-            <div class="email__numbers card__numbers">
-              <div class="email__total type__total">1000</div>
-              <div class="type__percent positive__percent"><i class="fa-solid fa-arrow-up"></i> 13%</div>
+          <div id="email__details" class="email__details">
+            <div id="email__cont">
+              <div class="email__title type__title subtitle">Emails</div>
+              <div class="email__numbers card__numbers">
+
+                <div class="email__total type__total">0</div>
+                <div class="type__percent positive__percent"><i class="fa-solid fa-arrow-up"></i> 0%</div>
+              </div>
             </div>
           </div>
         </div>
 
         <!-- SMS -->
         <div class="type__container sms">
+
           <div class="icon__container">
             <div class="sms__icon icon"><i class="fa-regular fa-comment-dots"></i></div>
           </div>
-          <div class="sms__details">
+
+          <div id="sms__details" class="sms__details">
             <div class="sms__title type__title subtitle">SMS</div>
+
             <div class="sms__numbers card__numbers">
-              <div class="sms__total type__total">1000</div>
-              <div class="type__percent negative__percent"><i class="fa-solid fa-arrow-up"></i> 13%</div>
+              <div class="sms__total type__total">0</div>
+              <div class="type__percent negative__percent"><i class="fa-solid fa-arrow-up"></i> 0%</div>
             </div>
+
           </div>
         </div>
 
         <!-- print -->
         <div class="type__container print">
+
           <div class="icon__container">
             <div class="print__icon icon"><i class="fa-solid fa-print"></i></div>
           </div>
-          <div class="print__details">
+
+          <div id="print__details" class="print__details">
+
             <div class="print__title type__title subtitle">Print</div>
             <div class="print__numbers card__numbers">
-              <div class="print__total type__total">1000</div>
-              <div class="type__percent positive__percent"><i class="fa-solid fa-arrow-up"></i> 13%</div>
+
+              <div class="print__total type__total">0</div>
+              <div class="type__percent positive__percent"><i class="fa-solid fa-arrow-up"></i> 0%</div>
+
             </div>
           </div>
         </div>
@@ -90,10 +102,10 @@
         <div class="pannel__1">
           <div class="pannel__1__top">
             <h2 class="graphics__title">Status</h2>
-            <p class="graphics__description">in last 7 days</p>
+            <p id="graphic-status" class="graphics__description">in last 7 days</p>
           </div>
           <div class="pannel__1__bottom">
-            <h2 class="graphics__total">532426</h2>
+            <h2 id="graphic-total" class="graphics__total">0</h2>
             <p class="graphics__description">Total records</p>
           </div>
         </div>
@@ -103,19 +115,19 @@
         <div class="pannel__3">
           <div class="pannel__3__top">
             <h2 class="graphics__title">Running</h2>
-            <div class="details">
+            <div id="graphic-running" class="details">
               <div class="dot__color color__info"></div>
-              <h2>3244</h2>
-              <p>(40%)</p>
+              <h2>0</h2>
+              <p>(0%)</p>
             </div>
           </div>
 
           <div class="pannel__3__top">
             <h2 class="graphics__title">Success</h2>
-            <div class="details">
+            <div id="graphic-success" class="details">
               <div class="dot__color color__positive"></div>
-              <h2>344</h2>
-              <p>(35%)</p>
+              <h2>0</h2>
+              <p>(0%)</p>
             </div>
           </div>
 
@@ -124,19 +136,19 @@
         <div class="pannel__4">
           <div class="pannel__4__top">
             <h2 class="graphics__title">Scheduled</h2>
-            <div class="details">
+            <div id="graphic-scheduled" class="details">
               <div class="dot__color color__warning"></div>
-              <h2>32</h2>
-              <p>(4%)</p>
+              <h2>0</h2>
+              <p>(0%)</p>
             </div>
           </div>
 
           <div class="pannel__4__top">
             <h2 class="graphics__title">Error</h2>
-            <div class="details">
+            <div id="graphic-error" class="details">
               <div class="dot__color color__negative"></div>
-              <h2>3</h2>
-              <p>(1%)</p>
+              <h2>0</h2>
+              <p>(0%)</p>
             </div>
           </div>
 
@@ -159,80 +171,6 @@
           <div id="items-container" class="batches__items__container">
 
             <!-- items here bellow -->
-
-
-            <!-- <div class="batches__wrapper__item batches__lines">
-              <h3>Alpha_Genesis</h3>
-              <h3>33454345345</h3>
-              <div class="status-badge status-processing">
-                Processing
-              </div>
-              <div class="completed">
-                103
-              </div>
-              <div class="total">
-                9500
-              </div>
-            </div>
-
-            <div class="batches__wrapper__item batches__lines">
-              <h3>Alpha_Genesis</h3>
-              <h3>33454345345</h3>
-              <div class="status-badge status-processing">
-                Processing
-              </div>
-              <div class="completed">
-                103
-              </div>
-              <div class="total">
-                9500
-              </div>
-            </div>
-
-            <div class="batches__wrapper__item batches__lines">
-              <h3>Alpha_Genesis</h3>
-              <h3>33454345345</h3>
-              <div class="status-badge status-finished">
-                Finished
-              </div>
-              <div class="completed">
-                103
-              </div>
-              <div class="total">
-                9500
-              </div>
-            </div>
-
-            <div class="batches__wrapper__item batches__lines">
-              <h3>Alpha_Genesis</h3>
-              <h3>33454345345</h3>
-              <div class="status-badge status-processing">
-                Processing
-              </div>
-              <div class="completed">
-                103
-              </div>
-              <div class="total">
-                9500
-              </div>
-            </div>
-
-            <div class="batches__wrapper__item batches__lines">
-              <h3>Alpha_Genesis</h3>
-              <h3>33454345345</h3>
-              <div class="status-badge status-finished">
-                Finished
-              </div>
-              <div class="completed">
-                103
-              </div>
-              <div class="total">
-                9500
-              </div>
-            </div> -->
-
-
-
 
           </div>
         </div>
