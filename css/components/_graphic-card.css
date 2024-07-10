@@ -84,3 +84,24 @@
 .donut-graphic {
     height: 30rem;
 }
+
+
+/* MEDIA QUERIES */
+
+
+/* Smartphones ----------- */
+@media only screen and (max-width: 650px) and (min-width: 520px) {
+
+}
+
+/* Small Smartphones ----------- */
+@media only screen and (max-width: 520px) and (min-width: 450px) {
+    
+}
+
+/* Smallest Smartphones ----------- */
+@media screen and (max-width: 450px) and (orientation : portrait) {
+    .donut-graphic {
+        height: 60rem;
+    }
+}

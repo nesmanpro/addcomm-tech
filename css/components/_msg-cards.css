@@ -41,3 +41,21 @@
 .type__percent i {
     font-size: 9px;
 }
+
+
+/* MEDIA QUERIES */
+
+
+/* Smallest Smartphones ----------- */
+@media screen and (max-width: 450px) and (orientation : portrait) {
+
+
+    .type__percent {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 12px;
+        padding: 2px 6px;
+        border-radius: 3px;
+    }
+}

@@ -72,3 +72,45 @@
     font-size: 12px;
     font-weight: 700;
 }
+
+/* MEDIA QUERIES */
+
+
+/* Smartphones ----------- */
+@media only screen and (max-width: 650px) and (min-width: 520px) {
+
+}
+
+/* Small Smartphones ----------- */
+@media only screen and (max-width: 520px) and (min-width: 450px) {
+    
+}
+
+/* Smallest Smartphones ----------- */
+@media screen and (max-width: 450px) and (orientation : portrait) {
+    .batches__wrapper__index, .batches__wrapper__index h3{
+        font-size: 8px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+
+.batches__wrapper__item, .batches__wrapper__item h3 {
+    font-size: 11px;
+    color: var(--color-card-icon);
+}
+
+    .batches__lines {
+        display: grid;
+        grid-template-columns: 40% 6% 20% 22% 1fr;
+    }
+
+    .status-badge {
+        text-transform: uppercase;
+        width: fit-content;
+        font-size: 7px;
+        font-weight: 600;
+        padding: 2px 7px;
+        border-radius: 4px;
+    }
+}
